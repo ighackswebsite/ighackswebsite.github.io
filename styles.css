@@ -1,0 +1,181 @@
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+#landing {
+    height: auto;
+    z-index: 0;
+    position: absolute;
+    color: black;
+    margin-top: 0px;
+
+}
+
+#landingimg {
+    width: 100vw;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+#title {
+    font-family: Satoshi;
+    font-size: 70px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    margin-top: 240px;
+    margin-left: 150px;
+    text-shadow: 0px 4px 50px #223da062;
+}
+
+#landinginfo {
+    font-family: Satoshi;
+    font-size: 35px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    margin-top: 330px;
+    margin-left: 150px;
+    text-shadow: 0px 0px 50px #223da062;
+}
+
+.menu_buttons {
+    display: inline;
+    margin-right: 55px;
+}
+
+li {
+    float: left;
+    margin-top: 40px;
+    margin-left: 0px;
+
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: Satoshi;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 21px;
+    text-shadow: 0px 2px 20px #0a09615e;
+    letter-spacing: 0.2px;
+    transition: transform 0.3s;
+}
+
+li a:hover {
+    transform: scale(1.1);
+}
+
+#top_buttons {
+    margin-left: 115px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#logo {
+    width: 38px;
+}
+
+#icon {
+    margin-top: 40px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.register-button {
+    background-color: #3652B6;
+    box-shadow: 5px 5px #1B3693;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: Satoshi;
+    font-size: 26px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 395px;
+    z-index: 1;
+    transition: transform 0.3s ease;
+
+}
+
+.register-button:hover {
+    transform: translateY(-5px);
+}
+
+#window1 {
+    width: 60vw;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px rgba(42, 50, 77, 0.19);
+    position: absolute;
+    margin-top: 1400px;
+}
+
+#windowbar {
+    width: 60vw;
+    height: 5vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #6F7DFF;
+    box-shadow: 0px 0px 40px rgba(42, 50, 77, 0.19);
+    position: relative;
+    margin-top: -25px;
+}
+
+#iggy1img {
+    position: absolute;
+    margin-left: 0px;
+    z-index: 10;
+    width: 20vw;
+    margin-top: 1500px;
+}
+
+m {
+    font-weight: 600;
+}
+
+#txt1 {
+    font-family: Satoshi;
+    font-size: 2em;
+    font-weight: 1000;
+    color: #102946;
+    padding-left: 30px;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top:25px;
+    position: relative;
+}
+
+#txt2 {
+    font-family: Satoshi;
+    font-size: 1.5em;
+    color: #102946;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 40vw;
+    position: relative;
+    margin-top: -5px;
+}
