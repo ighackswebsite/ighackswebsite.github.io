@@ -5,6 +5,7 @@ body {
     margin-left: 0px;
     width: 100vw;
     overflow-x: hidden;
+    font-family: Satoshi;
 }
 
 
@@ -18,9 +19,7 @@ body {
 }
 
 #landingimg {
-    width: 100vw;
-    margin-left: -10px;
-    margin-top: -5px;
+    width: 100%;
 }
 
 #title {
@@ -67,11 +66,11 @@ li a {
     font-size: 21px;
     text-shadow: 0px 2px 20px #0a09615e;
     letter-spacing: 0.2px;
-    transition: transform 0.3s;
+    transition: transform 0.6s ease;
 }
 
 li a:hover {
-    transform: scale(1.1);
+    transform: translateY(-2px);
 }
 
 #top_buttons {
@@ -123,34 +122,31 @@ li a:hover {
     transform: translateY(-5px);
 }
 
-#window1 {
-    width: 60vw;
-    height: 300px;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 40px rgba(42, 50, 77, 0.19);
+#faqtitle {
+    position:absolute;
+    font-family: Satoshi;
+    color: white;
+    font-size: 3em;
+    margin-top: -20px;
+}
+#faqdiv {
     position: absolute;
-    margin-top: 1400px;
-    margin-left: 350px;
+    z-index: 2;
+    margin-top: 2150px;
+    display: flex;
+    justify-content: center;
 }
 
-#windowbar {
-    width: 60vw;
-    height: 5vh;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: #6F7DFF;
-    box-shadow: 0px 0px 40px rgba(42, 50, 77, 0.19);
-    position: relative;
-    margin-top: -25px;
+#faqimg {
+    width: 100%;
 }
 
 #iggy1img {
     position: absolute;
-    margin-left: 0px;
-    z-index: 10;
-    width: 20vw;
-    margin-top: 1500px;
+    margin-left: 670px;
+    z-index: 15;
+    width: 32vw;
+    margin-top: -340px;
 }
 
 m {
@@ -158,25 +154,178 @@ m {
 }
 
 #txt1 {
-    font-family: Satoshi;
-    font-size: 2em;
-    font-weight: 1000;
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: 600;
     color: #102946;
-    padding-left: 30px;
-    padding: 40px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 0px;
-    margin-top:25px;
+    margin-top: 25px;
     position: relative;
 }
 
 #txt2 {
     font-family: Satoshi;
-    font-size: 1.5em;
+    font-size: 24px;
     color: #102946;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 40vw;
+    width: 35vw;
     position: relative;
-    margin-top: -5px;
+    margin-top: -15px;
+}
+
+#faq1 {
+    position: absolute;
+    display: flex;
+    margin-top: 800px;
+    justify-content: center;
+
+}
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin-top: 50px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-question {
+    width: 25vw;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-family: Satoshi;
+    box-shadow: 0 4px 5.2px rgba(40, 39, 58, 0.137);
+}
+
+.faq-question:hover {
+    background-color: #ffffff;
+}
+
+.faq-answer {
+    display: none;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 5.2px rgba(40, 39, 58, 0.137);
+}
+
+.faq-question.active + .faq-answer {
+    display: block;
+    
+}
+
+.card {
+
+    width: 60vw;
+    height: 400px;
+    border-radius: 45px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 40px rgba(95, 93, 136, 0.151);
+
+}
+
+.cardheader {
+    background-color: #6F7DFF;
+    position: relative;
+    height: 58px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    display: flex;
+    align-items: start;
+    z-index: 1;
+
+}
+
+.card-content {
+    padding: 80px;
+    padding-top: 50px;
+    margin-top: -38px;
+    margin-left: -15px;
+
+}
+
+.card-container {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin-top: 1470px;
+
+}
+
+#card-div {
+    display:flex;
+    justify-content: center;
+}
+
+#applyimg {
+    width: 100%;
+}
+
+#applyclouds {
+    position: absolute;
+    margin-top: 4500px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+
+#apply_text {
+    position: absolute;
+    letter-spacing: -2px;
+    font-size: 64px;
+    margin-top: 350px;
+    font-weight: 900;
+    color: #243D7D;
+
+}
+
+#apply_desc {
+    position: absolute;
+    margin-top: 438px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #243D7D;
+}
+
+.clouds-register-button {
+    background-color: #313eb9;
+    box-shadow: 0px 5px 10px #6b6b6b2f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: Satoshi;
+    font-size: 26px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 510px;
+    z-index: 1;
+    transition: transform 0.3s ease;
+    text-shadow: 0px 2px 20px #0a096128;
+
+}
+
+.cloud-register-button:hover {
+    transform: translateY(-5px);
 }
