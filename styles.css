@@ -703,6 +703,34 @@ m {
 
 } 
 
+@media screen and (aspect-ratio: 9:19.5)  {
+
+    #desktop-labels {
+        margin-left: 11% !important; 
+    }
+
+    #txt1{
+        font-size: 1.2em !important;
+    }
+
+    #txt2 {
+        font-size: 0.8em !important;
+    }
+
+   .card-container {
+        margin-top: 74%;
+    }
+
+    #applyclouds {
+        margin-top: 232%;
+    }
+
+    #faqdiv {
+        margin-top: 350%;
+    }
+
+} 
+
 @media screen and (max-width: 1750px) and (min-width: 1300px) {
 
     #desktop-labels {
