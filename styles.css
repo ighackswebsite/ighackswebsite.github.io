@@ -427,6 +427,46 @@ m {
     margin-top: 70%;
 }
 
+@media screen and (min-width: 491px) and (max-width: 650px) {
+    #faqdiv {
+        margin-top:  380% !important;
+    }
+
+    .accordion__wrapper {
+        height: 65vh !important;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 490px) {
+    #faqdiv {
+        margin-top:  380% !important;
+    }
+
+    .accordion__wrapper {
+        height: 60vh !important; 
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 490px) {
+    #faqdiv {
+        margin-top:  380% !important;
+    }
+
+    .accordion__wrapper {
+        height: 60vh !important; 
+    }
+}
+
+@media screen and (max-width: 392px) {
+    #faqdiv {
+        margin-top:  380% !important;
+    }
+
+    .accordion__wrapper {
+        height: 50vh !important;
+    }
+}
+
 
 @media screen and (max-width:1200px) and (min-width: 779px) {
 
@@ -703,34 +743,6 @@ m {
 
 } 
 
-@media screen and (aspect-ratio: 9:19.5)  {
-
-    #desktop-labels {
-        margin-left: 11% !important; 
-    }
-
-    #txt1{
-        font-size: 1.2em !important;
-    }
-
-    #txt2 {
-        font-size: 0.8em !important;
-    }
-
-   .card-container {
-        margin-top: 74%;
-    }
-
-    #applyclouds {
-        margin-top: 232%;
-    }
-
-    #faqdiv {
-        margin-top: 135%;
-    }
-
-} 
-
 @media screen and (max-width: 1750px) and (min-width: 1300px) {
 
     #desktop-labels {
@@ -774,7 +786,7 @@ m {
     }
 
     #applyclouds {
-        margin-top: 225%;
+        margin-top: 230%;
     }
 
     #apply_text {
@@ -790,7 +802,32 @@ m {
         margin-top: 495px;
     }
 
+    .accordion__wrapper {
+        width: 80vw;
+        height: 58vh;
+    }
+
+    .faq-header {
+        font-size: 55px;
+        font-weight: 600;
+        color: rgb(73, 73, 73);
+        z-index: 15;
+        text-align: center;
+        padding-bottom: 2rem;
+        margin-top: 0px;
+    }
+
+    #faqdiv {
+        margin-top: 195%;
+    }
 } 
+
+@media screen and (min-height: 600px) and (max-height: 700px) {
+
+    .accordion__wrapper {
+        height: 90vh !important;
+    }
+}
 
 @media screen and (max-width: 699px) and (min-width: 510px) {
 
