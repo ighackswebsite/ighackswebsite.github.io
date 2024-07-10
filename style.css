@@ -1,69 +1,83 @@
-:root{
---transition: 0.4s ease-in-out;
+:root {
+	--transition: 0.4s ease-in-out;
 }
+
 body {
-margin-top: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
-width: 100vw;
-overflow-x: hidden;
-font-family: Satoshi;
-background-color: white;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100vw;
+	overflow-x: hidden;
+	font-family: Satoshi;
+	background-color: white;
 }
+
 #faq-div {
-margin-top: 115%;
+	margin-top: 115%;
 }
+
 #applytoday {
-margin-top: 260%;
-z-index:3;
-position: absolute;
-width: 100%;
+	margin-top: 260%;
+	z-index: 3;
+	position: absolute;
+	width: 100%;
 }
+
 #inperson {
-width: 100%;
-position: absolute;
-margin-top: 292%;
-z-index: 5;
+	width: 100%;
+	position: absolute;
+	margin-top: 292%;
+	z-index: 5;
 }
+
 #faqimg {
-width: 100%;
-position: absolute;
+	width: 100%;
+	position: absolute;
 }
+
 #starsimg {
-width: 100%;
-position: absolute;
-margin-top: 28%;
+	width: 100%;
+	position: absolute;
+	margin-top: 28%;
 }
+
 #mobile-in-person {
-display: none;
+	display: none;
 }
+
 @media screen and (max-width: 1200px) {
-#faq-div {
-margin-top: 250%;
+	#faq-div {
+		margin-top: 250%;
+	}
+
+	#applytoday {
+		margin-top: 410%;
+	}
+
+	#faqimg {
+		display: none;
+	}
+
+	#starsimg {
+		display: none;
+	}
+
+	#mobile-in-person {
+		width: 100%;
+		position: absolute;
+		margin-top: 149%;
+		z-index: 6;
+		display: block;
+	}
 }
-#applytoday {
-margin-top: 410%;
-}
-#faqimg {
-display: none;
-}
-#starsimg {
-display: none;
-}
-#mobile-in-person {
-width: 100%;
-position: absolute;
-margin-top: 149%;
-z-index: 6;
-display: block;
-}
-}
+
 @media screen and (max-width: 1200px) {
-#applytoday {
-margin-top: 400%
-}
-#inperson {
-margin-top: 282%;
-}
+	#applytoday {
+		margin-top: 400%
+	}
+
+	#inperson {
+		margin-top: 282%;
+	}
 }
