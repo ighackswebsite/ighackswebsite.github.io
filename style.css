@@ -39,7 +39,7 @@ body {
 #starsimg {
 	width: 100%;
 	position: absolute;
-	margin-top: 28%;
+	margin-top: 12%;
 }
 
 #mobile-in-person {
@@ -49,10 +49,6 @@ body {
 @media screen and (max-width: 1200px) {
 	#faq-div {
 		margin-top: 250%;
-	}
-
-	#applytoday {
-		margin-top: 410%;
 	}
 
 	#faqimg {
@@ -70,9 +66,7 @@ body {
 		z-index: 6;
 		display: block;
 	}
-}
 
-@media screen and (max-width: 1200px) {
 	#applytoday {
 		margin-top: 400%
 	}
