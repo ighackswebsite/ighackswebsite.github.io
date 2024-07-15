@@ -51,6 +51,7 @@ body {
 .menu_buttons {
 	display: inline;
 	margin-right: 55px;
+	cursor: pointer;
 }
 
 li {
@@ -70,6 +71,7 @@ li a {
 	text-shadow: 0px 2px 20px #0a09615e;
 	letter-spacing: 0.3px;
 	transition: transform 0.6s ease;
+	cursor: pointer;
 }
 
 li a:hover {
