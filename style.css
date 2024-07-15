@@ -46,6 +46,95 @@ body {
 	display: none;
 }
 
+.footer {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 150px;
+	color: #274185;
+	position: relative;
+	z-index: 15;
+	width: 100%;
+}
+
+.social-buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.social-button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #555;
+	border-radius: 50%;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.social-button:hover {
+	background-color: #777;
+}
+
+.social-button i {
+	font-size: 24px;
+}
+
+.header {
+	display: flex;
+	align-items: baseline;
+	gap: 1em; /* Space between logo and text */
+	padding: 1em;
+}
+
+.header img {
+	width: 50px; /* Adjust the size as needed */
+	height: 50px; /* Adjust the size as needed */
+	object-fit: cover;
+}
+
+#footer-text-1 {
+	margin: 0;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+#footer-text-2 {
+	margin: 0;
+	margin-top: 0.7em;
+	font-size: 1.2em;
+	letter-spacing: 0.3px;
+	font-weight: 500;
+}
+
+#footer-logo {
+	height: 2em;
+	width: auto;
+}
+
+#about-us-div {
+	margin-top: 405%;
+	position: absolute;
+	z-index: 10;
+}
+
+#team-div {
+    margin-top: 500%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 14;
+    width: 100%;
+
+}
+
+.headers {
+	font-size: 4em;
+}
+
 @media screen and (max-width: 1200px) {
 	#faq-div {
 		margin-top: 250%;
@@ -73,5 +162,29 @@ body {
 
 	#inperson {
 		margin-top: 282%;
+	}
+
+
+	#about-us-div {
+		margin-top: 600%;
+	}
+
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+
+	#team-div {
+		margin-top: 515% !important;
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 801px) {
+	#team-div {
+		margin-top: 730%;
+	}
+}
+@media screen and (min-width: 1400px) {
+	#team-div {
+		margin-top: 500%;
 	}
 }

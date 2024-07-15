@@ -13,7 +13,7 @@ z-index: 0; */
 }
 
 .faq-header {
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: 600;
 	color: rgb(73, 73, 73);
 	z-index: 15;
@@ -94,12 +94,13 @@ z-index: 0; */
 }
 
 .accordion__question {
-	font-size: 1em;
+	font-size: 1.3em;
 	font-weight: 500;
 }
 
 .accordion__answer {
 	padding: 2rem 0;
+	font-size: 1.3em;
 }
 
 .accordion__content {

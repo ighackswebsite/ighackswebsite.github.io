@@ -1,174 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Ignition Hacks 2024</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="faqdiv.css">
-      <link rel="stylesheet" href="landingdiv.css">
-      <link rel="stylesheet" href="applycloudsdiv.css">
-      <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-      <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-   </head>
-   <body>
-      <div id="landing">
-         <div id="mobile-nav">
-            <a href="#ignitionhacks" id="icon"><img src="illustration/logo.png" id="logo"></a>
-         </div>
-         <img src="illustration/Group 246.png" id="landing-bg" class="unselectable">
-         <img src="illustration/Group 268.png" id="mobile-landing-bg" class="unselectable">
-         <div id="labels">
-            <ul id="top_buttons">
-               <li class="menu_buttons"><a data-target="about">New Updates Coming Soon!</a></li>
-               <!-- <li class="menu_buttons"><a data-target="faq-div">FAQ</a></li>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Ignition Hacks 2024</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="faqdiv.css">
+   <link rel="stylesheet" href="landingdiv.css">
+   <link rel="stylesheet" href="applycloudsdiv.css">
+   <link rel="stylesheet" href="team.css">
+   <link rel="stylesheet" href="aboutusdiv.css">
+   <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet">
+   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+   <div id="landing">
+      <div id="mobile-nav">
+         <a href="#ignitionhacks" id="icon"><img src="illustration/logo.png" id="logo"></a>
+      </div>
+      <img src="illustration/Group 246.png" id="landing-bg" class="unselectable">
+      <img src="illustration/Group 268.png" id="mobile-landing-bg" class="unselectable">
+      <div id="labels">
+         <ul id="top_buttons">
+            <li class="menu_buttons"><a data-target="about">New Updates Coming Soon!</a></li>
+            <!-- <li class="menu_buttons"><a data-target="faq-div">FAQ</a></li>
                   <li class="menu_buttons"><a data-target="sponsors">Sponsors</a></li>
                   <li class="menu_buttons"><a data-target="team">Our Team</a></li>
                   <li class="menu_buttons"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckV33iC7vVECFa1y6HBBZ2KzpTlhSxedR4yRPbiVAB9Wy-rg/viewform?usp=sf_link" target="_blank">Registration</a></li> -->
-            </ul>
-            <h1 id="title">IGNITION HACKS</h1>
-            <h1 id="landinginfo">Online Hackathon / August 16-18, 2024</h1>
-            <button onclick="openLink()" class="register-button">Register Here</button>
-         </div>
-         <div class="card-content">
-            <h1 id="txt1">We're Back!</h1>
-            <p id="txt2">
-               Ignition Hacks is a 
-               <m>36-hour online hackathon</m>
-               that focuses on the intersection
-               between 
-               <m>business and technology</m>
-               . It is a fun-filled event featuring awesome prizes, SWAG,
-               engaging workshops, and more!
-            </p>
-         </div>
-         <img src="illustration/iggywindow.png" id="iggywindow">
+         </ul>
+         <h1 id="title">IGNITION HACKS</h1>
+         <h1 id="landinginfo">Online Hackathon / August 16-18, 2024</h1>
+         <button onclick="openLink()" class="register-button">Register Here</button>
       </div>
-      <div id="faq-div">
-         <img src="illustration/Group 283.png" id = "faq-bg">
-         <div class="container">
-            <div class="accordion__wrapper">
-               <h1 class="faq-header" id="faq-scroll">Frequently Asked Questions</h1>
-               <!-- Accordion 1 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">How many people can be on a team?</h2>
-                     <span class="accordion__icon">
+      <div class="card-content">
+         <h1 id="txt1">We're Back!</h1>
+         <p id="txt2">
+            Ignition Hacks is a
+            <m>36-hour online hackathon</m>
+            that focuses on the intersection
+            between
+            <m>business and technology</m>
+            . It is a fun-filled event featuring awesome prizes, SWAG,
+            engaging workshops, and more!
+         </p>
+      </div>
+      <img src="illustration/iggywindow.png" id="iggywindow">
+   </div>
+   <div id="faq-div">
+      <img src="illustration/Group 283.png" id="faq-bg">
+      <div class="container">
+         <div class="accordion__wrapper">
+            <h1 class="faq-header" id="faq-scroll">Frequently Asked Questions</h1>
+            <!-- Accordion 1 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">How many people can be on a team?</h2>
+                  <span class="accordion__icon">
                      <i class="ri-add-line"></i>
                      <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">There can be 1-4 members on a team! Feel free to go solo, or collaborate with other hackers to create a project.</p>
-                  </div>
+                  </span>
                </div>
-               <!-- Accordion 2 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">What if I don't have a team?</h2>
-                     <span class="accordion__icon">
-                     <i class="ri-add-line"></i>
-                     <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">No worries at all! Many participants go into a hackathon looking for team members. We will have a team finding channel in our Discord server, and a networking portion for the in-person component for you to connect with other hackers.</p>
-                  </div>
+               <div class="accordion__content">
+                  <p class="accordion__answer">There can be 1-4 members on a team! Feel free to go solo, or collaborate
+                     with other hackers to create a project.</p>
                </div>
-               <!-- Accordion 3 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">How much does it cost to attend?</h2>
-                     <span class="accordion__icon">
+            </div>
+            <!-- Accordion 2 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">What if I don't have a team?</h2>
+                  <span class="accordion__icon">
                      <i class="ri-add-line"></i>
                      <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">Attending Ignition Hacks is completely free. Zero dollars! We will cover all costs. Your only job is to hack, and have lots of fun! Leave the rest to us.</p>
-                  </div>
+                  </span>
                </div>
-               <!-- Accordion 4 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">Is there a theme for projects?</h2>
-                     <span class="accordion__icon">
-                     <i class="ri-add-line"></i>
-                     <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">We do not have a specific theme at Ignition Hacks, however, we are a business-tech hackathon, which means your pitch, idea, and technical demo are all equally valuable. We also offer specific prize tracks which will be listed closer to the event date, so if you’re stuck on project ideas, you can refer to those!</p>
-                  </div>
+               <div class="accordion__content">
+                  <p class="accordion__answer">No worries at all! Many participants go into a hackathon looking for team
+                     members. We will have a team finding channel in our Discord server, and a networking portion for
+                     the in-person component for you to connect with other hackers.</p>
                </div>
-               <!-- Accordion 5 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">How long will the hackathon last?</h2>
-                     <span class="accordion__icon">
+            </div>
+            <!-- Accordion 3 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">How much does it cost to attend?</h2>
+                  <span class="accordion__icon">
                      <i class="ri-add-line"></i>
                      <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">The hackathon will last from Friday, August 16th to Sunday, August 18th. Hacking will be strictly 36 hours.</p>
-                  </div>
+                  </span>
                </div>
-               <!-- Accordion 6 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">Who can participate?</h2>
-                     <span class="accordion__icon">
-                     <i class="ri-add-line"></i>
-                     <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">Anyone from middle school to undergraduate students are welcome to compete!</p>
-                  </div>
+               <div class="accordion__content">
+                  <p class="accordion__answer">Attending Ignition Hacks is completely free. Zero dollars! We will cover
+                     all costs. Your only job is to hack, and have lots of fun! Leave the rest to us.</p>
                </div>
-               <!-- Accordion 7 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">What if I've never been to a hackathon before?</h2>
-                     <span class="accordion__icon">
+            </div>
+            <!-- Accordion 4 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">Is there a theme for projects?</h2>
+                  <span class="accordion__icon">
                      <i class="ri-add-line"></i>
                      <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">Ignition Hacks aims to help people from a variety of technical backgrounds and experiences. We are beginner friendly, and strive to reduce the barrier of entry to technology (including having a best beginner hack award). We will provide lots of resources including workshops, activities, and mentors for you to have one of the best hackathon experiences possible!</p>
-                  </div>
+                  </span>
                </div>
-               <!-- Accordion 8 -->
-               <div class="accordion">
-                  <div class="accordion__header">
-                     <h2 class="accordion__question">What if I have more questions?</h2>
-                     <span class="accordion__icon">
+               <div class="accordion__content">
+                  <p class="accordion__answer">We do not have a specific theme at Ignition Hacks, however, we are a
+                     business-tech hackathon, which means your pitch, idea, and technical demo are all equally valuable.
+                     We also offer specific prize tracks which will be listed closer to the event date, so if you’re
+                     stuck on project ideas, you can refer to those!</p>
+               </div>
+            </div>
+            <!-- Accordion 5 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">How long will the hackathon last?</h2>
+                  <span class="accordion__icon">
                      <i class="ri-add-line"></i>
                      <img src="illustration/accordion_icon.png" id="star-icon">
-                     </span>
-                  </div>
-                  <div class="accordion__content">
-                     <p class="accordion__answer">Shoot us an email at info@ignitionhacks.com or message us on Instagram at @ignitionhacks and we’d be more than happy to answer your questions!</p>
-                  </div>
+                  </span>
+               </div>
+               <div class="accordion__content">
+                  <p class="accordion__answer">The hackathon will last from Friday, August 16th to Sunday, August 18th.
+                     Hacking will be strictly 36 hours.</p>
+               </div>
+            </div>
+            <!-- Accordion 6 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">Who can participate?</h2>
+                  <span class="accordion__icon">
+                     <i class="ri-add-line"></i>
+                     <img src="illustration/accordion_icon.png" id="star-icon">
+                  </span>
+               </div>
+               <div class="accordion__content">
+                  <p class="accordion__answer">Anyone from middle school to undergraduate students are welcome to
+                     compete!</p>
+               </div>
+            </div>
+            <!-- Accordion 7 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">What if I've never been to a hackathon before?</h2>
+                  <span class="accordion__icon">
+                     <i class="ri-add-line"></i>
+                     <img src="illustration/accordion_icon.png" id="star-icon">
+                  </span>
+               </div>
+               <div class="accordion__content">
+                  <p class="accordion__answer">Ignition Hacks aims to help people from a variety of technical
+                     backgrounds and experiences. We are beginner friendly, and strive to reduce the barrier of entry to
+                     technology (including having a best beginner hack award). We will provide lots of resources
+                     including workshops, activities, and mentors for you to have one of the best hackathon experiences
+                     possible!</p>
+               </div>
+            </div>
+            <!-- Accordion 8 -->
+            <div class="accordion">
+               <div class="accordion__header">
+                  <h2 class="accordion__question">What if I have more questions?</h2>
+                  <span class="accordion__icon">
+                     <i class="ri-add-line"></i>
+                     <img src="illustration/accordion_icon.png" id="star-icon">
+                  </span>
+               </div>
+               <div class="accordion__content">
+                  <p class="accordion__answer">Shoot us an email at info@ignitionhacks.com or message us on Instagram at
+                     @ignitionhacks and we’d be more than happy to answer your questions!</p>
                </div>
             </div>
          </div>
       </div>
-      <div id="applytoday">
-         <div id="applyclouds">
-            <h1 id="apply_text">APPLY TODAY!</h1>
-            <p id="apply_desc">Applications are due by August 3rd, 2024</p>
-            <button onclick="openLink()" class="clouds-register-button">Register Here</button>
+   </div>
+   <div id="applytoday">
+      <div id="applyclouds">
+         <h1 id="apply_text">APPLY TODAY!</h1>
+         <p id="apply_desc">Applications are due by August 3rd, 2024</p>
+         <button onclick="openLink()" class="clouds-register-button">Register Here</button>
+      </div>
+      <img src="illustration/applytoday.png" id="apply-bg">
+   </div>
+   <div id="inperson">
+      <img src="illustration/div3.png" id="faqimg" class="unselectable">
+      <img src="illustration/stars.png" id="starsimg" class="unselectable">
+      <img src="illustration/Group 282.png" id="mobile-in-person" class="unselectable">
+   </div>
+
+   <div id="about-us-div">
+      <img src="illustration/aboutuscloud.png" id="cloud-img">
+      <img src="illustration/mobile-about-us-cloud.png" id="mobile-cloud-img">
+      <img src="illustration/details.png" id="details">
+
+      <h1 id="throwback"> Throwback to Ignition Hacks v4!</h1>
+      <div id="card-window">
+         <div id='window-top'>
+            <h1 id="yr">2023</h1>
          </div>
-         <img src="illustration/applytoday.png" id="apply-bg">
+         <div id="photos">
+            <div class="carousel">
+               <ul class="slides">
+                  <input type="radio" name="radio-buttons" id="img-1" checked />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/IMG_1032.JPG">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-9" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-2" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+                  <input type="radio" name="radio-buttons" id="img-2" />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/788DEE9E-CAB3-4991-9263-52A041197359_1_102_o.jpeg">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-1" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-3" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+                  <input type="radio" name="radio-buttons" id="img-3" />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/965EBE4F-C2BE-4153-BB6B-2FB7AEDFC745_1_102_o.jpeg">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-2" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-4" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+                  <input type="radio" name="radio-buttons" id="img-4" />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/9D8B2ACC-21AA-49DA-9989-9BECDEB7DCBF.jpeg">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-3" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-5" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+                  <input type="radio" name="radio-buttons" id="img-5" />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/IMG_3758.JPG">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-4" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-6" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+                  <input type="radio" name="radio-buttons" id="img-6" />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/IMG_3761.JPG">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-5" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-7" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+                  <input type="radio" name="radio-buttons" id="img-7" />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/IMG_3779.JPG">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-6" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-8" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+                  <input type="radio" name="radio-buttons" id="img-8" />
+                  <li class="slide-container">
+                     <div class="slide-image">
+                        <img src="img/IMG_3787.JPG">
+                     </div>
+                     <div class="carousel-controls">
+                        <label for="img-7" class="prev-slide">
+                           <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-1" class="next-slide">
+                           <span>&rsaquo;</span>
+                        </label>
+                     </div>
+                  </li>
+               </ul>
+
+               <div class="carousel-dots">
+                  <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                  <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                  <label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+                  <label for="img-6" class="carousel-dot" id="img-dot-6"></label>
+                  <label for="img-7" class="carousel-dot" id="img-dot-7"></label>
+                  <label for="img-8" class="carousel-dot" id="img-dot-8"></label>
+               </div>
+
+            </div>
+
+         </div>
       </div>
-      <div id="inperson">
-         <img src="illustration/div3.png" id="faqimg" class="unselectable">
-         <img src="illustration/stars.png" id="starsimg" class="unselectable">
-         <img src="illustration/Group 282.png" id="mobile-in-person" class="unselectable">
+   </div>
+
+   <div id="team-div">
+      <h1 class="headers" id="about-us">About Us</h1>
+      <p id="about-paragraph">Founded in 2019, Ignition Hacks is a student-led organization that focuses on bridging technology and business.
+         We are a team of coding-ninjas and business-savvy students that is dedicated to bringing an amazing hybrid-hackathon to you!</p>
+      <h1 class="headers"> Our Team</h1>
+      <div class="team-members">
+         <div class="team-category">
+            <div class="members">
+               <div class="member">
+                  <img src="headshots/meganchun.jpeg">
+                  <h3>Megan Chun</h3>
+                  <h4>Co-Director</h4>
+                  <a href="https://www.linkedin.com/in/meganchun/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/samantha.jpeg">
+                  <h3>Samantha Mac</h3>
+                  <h4>Co-Director</h4>
+                  <a href="https://www.linkedin.com/in/samanthavmac/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+
+               <div class="member">
+                  <img src="headshots/jasmine.jpeg">
+                  <h3>Jasmine Xu</h3>
+                  <h4>Co-Director</h4>
+                  <a href="https://www.linkedin.com/in/jasmine-xu-493355294/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="team-category">
+            
+            <div class="members">
+               <div class="member">
+                  <img src="headshots/sohaila.jpg">
+                  <h3>Sohaila Ali</h3>
+                  <h4>Logistics</h4>
+                  <a href="https://www.linkedin.com/in/sohailaali" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/kevin.jpg">
+                  <h3>Kevin Tang</h3>
+                  <h4>Logistics</h4>
+                  <a href="https://www.instagram.com/bourr4sque/" target="_blank" class="linkedin-btn"><img
+                        src="img/instagram.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/daisy.png">
+                  <h3>Daisy Wang</h3>
+                  <h4>Logistics</h4>
+                  <a href="https://www.linkedin.com/in/daisy-wang-a82316257/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/behzad.jpg">
+                  <h3>Behzad Waseem</h3>
+                  <h4>Logistics</h4>
+                  <a href="https://www.linkedin.com/in/behzadwaseem" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/emily.jpeg">
+                  <h3>Emily Yu</h3>
+                  <h4>Logistics</h4>
+                  <a href="https://www.linkedin.com/in/emily-yu-95b6b2285/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="team-category">
+            <div class="members">
+               <div class="member">
+                  <img src="headshots/thomas.jpeg">
+                  <h3>Thomas Lenh</h3>
+                  <h4>Finance</h4>
+                  <a href="https://www.linkedin.com/in/thomas-lenh-38216a248/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/meganli.jpeg">
+                  <h3>Megan Li</h3>
+                  <h4>Finance</h4>
+                  <a href="https://www.linkedin.com/in/megan-li-61639b276/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/kelvin.jpg">
+                  <h3>Kelvin Ngyuen</h3>
+                  <h4>Finance</h4>
+                  <a href="https://www.linkedin.com/in/nguyen-kelvin/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/franklin.jpg">
+                  <h3>Franklin Ramirez</h3>
+                  <h4>Finance Lead</h4>
+                  <a href="https://www.linkedin.com/in/franklin-ramirez611/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/emma.jpeg">
+                  <h3>Emma Shi</h3>
+                  <h4>Finance</h4>
+                  <a href="https://www.linkedin.com/in/emma-shi/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/matthew.jpeg">
+                  <h3>Matthew Yang</h3>
+                  <h4>Finance</h4>
+                  <a href="https://www.linkedin.com/in/matthew-y" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="team-category">
+            <div class="members">
+               <div class="member">
+                  <img src="headshots/huyen.jpeg">
+                  <h3>Harper Le</h3>
+                  <h4>Marketing</h4>
+                  <a href="http://linkedin.com/in/huyenttle" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+
+               <div class="member">
+                  <img src="headshots/avery.jpeg">
+                  <h3>Avery Ng</h3>
+                  <h4>Marketing</h4>
+                  <a href="https://www.instagram.com/p/CzUDRmsgzJ4/?img_index=2" target="_blank"
+                     class="linkedin-btn"><img src="img/instagram.png" id="linkedin"></a>
+               </div>
+
+               <div class="member">
+                  <img src="headshots/nilgun.jpeg">
+                  <h3>Nilgun Sarikaya</h3>
+                  <h4>Marketing Lead</h4>
+
+               </div>
+
+               <div class="member">
+                  <img src="headshots/carrie.jpg">
+                  <h3>Carrie Tieu</h3>
+                  <h4>Marketing</h4>
+                  <a href="https://ca.linkedin.com/in/carrie-tieu" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="team-category">
+            <div class="members">
+               <div class="member">
+                  <img src="headshots/melissa.jpeg">
+                  <h3>Melissa Ho</h3>
+                  <h4>UI/UX & Web Dev</h4>
+                  <a href="https://www.linkedin.com/in/melyho/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/christine.jpg">
+                  <h3>Christine Wei</h3>
+                  <h4>UI/UX</h4>
+                  <a href="https://www.linkedin.com/in/christine-ruo-wei/" target="_blank" class="linkedin-btn"><img
+                        src="img/linkedin.png" id="linkedin"></a>
+               </div>
+               <div class="member">
+                  <img src="headshots/rachel.jpeg">
+                  <h3>Rachel Wei</h3>
+                  <h4>UI/UX</h4>
+                  <a href="https://www.instagram.com/rachelweiiiii?igsh=bzRicTE3N3ZleHE0&utm_source=qr" target="_blank"
+                     class="linkedin-btn"><img src="img/instagram.png" id="linkedin"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="footer">
+            <div class="header">
+               <img src="img/logo.png" id="footer-logo">
+               <h1 id="footer-text-1">Ignition Hacks</h1>
+            </div>
+            <div class="social-buttons">
+               <a href="https://www.instagram.com/rachelweiiiii?igsh=bzRicTE3N3ZleHE0&utm_source=qr" target="_blank"
+                  class="linkedin-btn"><img src="img/instagram.png" id="linkedin"></a>
+               <a href="https://www.instagram.com/rachelweiiiii?igsh=bzRicTE3N3ZleHE0&utm_source=qr" target="_blank"
+                  class="linkedin-btn"><img src="img/linkedin.png" id="linkedin"></a>
+               <a href="mailto:info@ignitionhacks.com" target="_blank" class="linkedin-btn"><img src="img/mail.png"
+                     id="mail"></a>
+            </div>
+            <h2 id="footer-text-2">© 2024 Ignition Hacks. All Rights Reserved</h2>
+         </div>
       </div>
-      <script src="script.js"></script>
-   </body>
+   </div>
+
+
+   <script src="script.js"></script>
+</body>
+
 </html>
