@@ -29,3 +29,21 @@ function openLink() {
     window.open(url, '_blank');
 
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var menuButtons = document.querySelectorAll('.menu_buttons a');
+
+    menuButtons.forEach(function(button) {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            var target = this.getAttribute('data-target');
+            var targetElement = document.getElementById(target);
+            
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+});
