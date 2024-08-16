@@ -18,7 +18,7 @@ body {
 }
 
 #applytoday {
-	margin-top: 260%;
+	margin-top: 250%;
 	z-index: 3;
 	position: absolute;
 	width: 100%;
@@ -27,7 +27,7 @@ body {
 #inperson {
 	width: 100%;
 	position: absolute;
-	margin-top: 292%;
+	margin-top: 265%;
 	z-index: 5;
 }
 
@@ -51,7 +51,7 @@ body {
 	justify-content: space-between;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 20px;
+	padding-top: 50px;
 	padding-bottom: 150px;
 	color: #274185;
 	position: relative;
@@ -115,19 +115,19 @@ body {
 }
 
 #about-us-div {
-	margin-top: 405%;
+	margin-top: 375%;
 	position: absolute;
 	z-index: 10;
 }
 
 #team-div {
-    margin-top: 500%;
     position: absolute;
     display: flex;
     align-items: center;
     flex-direction: column;
     z-index: 14;
     width: 100%;
+	margin-top: 855%;
 
 }
 
@@ -135,7 +135,17 @@ body {
 	font-size: 4em;
 }
 
-@media screen and (max-width: 1200px) {
+#sponsor-div {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 100%;
+	z-index: 15;
+	position: absolute;
+	margin-top: 28%;
+}
+
+@media screen and (max-width: 1300px) {
 	#faq-div {
 		margin-top: 250%;
 	}
@@ -171,20 +181,31 @@ body {
 
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1400px) {
 
+@media screen and (min-width: 1500px){
 	#team-div {
-		margin-top: 515% !important;
+		margin-top: 580%;
 	}
+
 }
 
-@media screen and (max-width: 1200px) and (min-width: 801px) {
+@media screen and (min-width: 1600px){
 	#team-div {
-		margin-top: 730%;
+		margin-top: 560%;
 	}
+
 }
-@media screen and (min-width: 1400px) {
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
 	#team-div {
-		margin-top: 500%;
+		margin-top: 580%;
 	}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+	#team-div {
+	margin-top: 820%;
+	}
+
 }

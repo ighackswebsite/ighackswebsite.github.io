@@ -24,10 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-function openLink() {
-    var url = 'https://docs.google.com/forms/d/e/1FAIpQLSckV33iC7vVECFa1y6HBBZ2KzpTlhSxedR4yRPbiVAB9Wy-rg/viewform?usp=sf_link';
+function openLink(url) {
     window.open(url, '_blank');
-
 }
 
 document.addEventListener('DOMContentLoaded', function() {

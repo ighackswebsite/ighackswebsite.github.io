@@ -10,6 +10,7 @@
    <link rel="stylesheet" href="applycloudsdiv.css">
    <link rel="stylesheet" href="team.css">
    <link rel="stylesheet" href="aboutusdiv.css">
+   <link rel="stylesheet" href="sponsors.css">
    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
    <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -28,13 +29,13 @@
          <ul id="top_buttons">
             <li class="menu_buttons"><a data-target="inperson">About</a></li>
             <li class="menu_buttons"><a data-target="faq-div">FAQ</a></li>
-<!--             <li class="menu_buttons"><a data-target="sponsors">Sponsors</a></li> -->
-            <li class="menu_buttons"><a data-target="team-div">Our Team</a></li>
-            <li class="menu_buttons"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckV33iC7vVECFa1y6HBBZ2KzpTlhSxedR4yRPbiVAB9Wy-rg/viewform?usp=sf_link" target="_blank">Registration</a></li>
+                  <li class="menu_buttons"><a data-target="sponsors-div">Sponsors</a></li>
+                  <li class="menu_buttons"><a data-target="team-div">Our Team</a></li>
+                  <!-- <li class="menu_buttons"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckV33iC7vVECFa1y6HBBZ2KzpTlhSxedR4yRPbiVAB9Wy-rg/viewform?usp=sf_link" target="_blank">Registration</a></li> -->
          </ul>
          <h1 id="title">IGNITION HACKS</h1>
          <h1 id="landinginfo">Online Hackathon / August 16-18, 2024</h1>
-         <button onclick="openLink()" class="register-button">Register Here</button>
+         <button class="register-button">Registration Closed</button>
       </div>
       <div class="card-content">
          <h1 id="txt1">We're Back!</h1>
@@ -170,18 +171,18 @@
                </div>
                <div class="accordion__content">
                   <p class="accordion__answer">Shoot us an email at info@ignitionhacks.com or message us on Instagram at
-                     @ignitionhacks and we’d be more than happy to answer your questions!</p>
+                     @ignitionhacks and we'd be more than happy to answer your questions!</p>
                </div>
             </div>
          </div>
       </div>
    </div>
    <div id="applytoday">
-      <div id="applyclouds">
+      <!-- <div id="applyclouds">
          <h1 id="apply_text">APPLY TODAY!</h1>
          <p id="apply_desc">Applications are due by August 3rd, 2024</p>
          <button onclick="openLink()" class="clouds-register-button">Register Here</button>
-      </div>
+      </div> -->
       <img src="illustration/applytoday.png" id="apply-bg">
    </div>
    <div id="inperson">
@@ -195,10 +196,63 @@
       <img src="illustration/mobile-about-us-cloud.png" id="mobile-cloud-img">
       <img src="illustration/details.png" id="details">
 
-      <h1 id="throwback"> Throwback to Ignition Hacks v4!</h1>
+      <div id="sponsor-div">
+         <h1 id="sponsors">Our Sponsors</h1>
+         <div class="sponsor-grid">
+         
+           <!-- top tier sponsors -->
+           <div class="sponsor-item" style="grid-column: 1 / span 4;" onclick="openLink('https://www.bestbuy.com/')">
+             <img src="img/BBYC_Logo_Primary_RGB.png">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 1 / span 4;" onclick="openLink('https://automationroboticsarduino.com/')">
+             <img src="img/Goliath_automation_robotics_clear_back.png">
+           </div>
+         
+           <!-- lower tier sponsors -->
+           <div class="sponsor-item" style="grid-column: 1 / span 2;" onclick="openLink('https://certopus.com/')">
+             <img src="img/certopus_original.png">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 3 / span 2;" onclick="openLink('https://igda.org/')">
+             <img src="img/igda.png">
+           </div>
+         
+            <div class="sponsor-item" style="grid-column: 1 / span 2;" onclick="openLink('https://incogni.com/')">
+             <img src="img/Incogni_Logo.jpg">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 3 / span 2;" onclick="openLink('https://interviewbuddy.net/')">
+             <img src="img/interviewbuddy.png">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 1 / span 2;" onclick="openLink('https://nordpass.com/')">
+             <img src="img/nordpass.png">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 3 / span 2;" onclick="openLink('https://nordvpn.com/')">
+             <img src="img/nordvpn.jpg">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 1 / span 2;" onclick="openLink('https://www.oreilly.com/')">
+             <img src="img/oreilly.png">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 3 / span 2;" onclick="openLink('https://www.wolfram.com/?source=nav')">
+             <img src="img/wolfram-corporate-logo-horz-med.png">
+           </div>
+         
+           <div class="sponsor-item" style="grid-column: 2 / span 2;" onclick="openLink('https://gen.xyz/')">
+             <img src="img/xyz.png">
+           </div>
+         
+         </div>
+         </div>
+      
+      <div id="gallery">
       <div id="card-window">
          <div id='window-top'>
-            <h1 id="yr">2023</h1>
+            <h1 id="yr">Throwback to Ignition Hacks v4!</h1>
          </div>
          <div id="photos">
             <div class="carousel">
@@ -206,7 +260,7 @@
                   <input type="radio" name="radio-buttons" id="img-1" checked />
                   <li class="slide-container">
                      <div class="slide-image">
-                        <img src="img/IMG_1032.jpg">
+                        <img src="img/IMG_1032.JPG">
                      </div>
                      <div class="carousel-controls">
                         <label for="img-9" class="prev-slide">
@@ -262,7 +316,7 @@
                   <input type="radio" name="radio-buttons" id="img-5" />
                   <li class="slide-container">
                      <div class="slide-image">
-                        <img src="img/IMG_3758.jpg">
+                        <img src="img/IMG_3758.JPG">
                      </div>
                      <div class="carousel-controls">
                         <label for="img-4" class="prev-slide">
@@ -276,7 +330,7 @@
                   <input type="radio" name="radio-buttons" id="img-6" />
                   <li class="slide-container">
                      <div class="slide-image">
-                        <img src="img/IMG_3761.jpg">
+                        <img src="img/IMG_3761.JPG">
                      </div>
                      <div class="carousel-controls">
                         <label for="img-5" class="prev-slide">
@@ -290,7 +344,7 @@
                   <input type="radio" name="radio-buttons" id="img-7" />
                   <li class="slide-container">
                      <div class="slide-image">
-                        <img src="img/IMG_3779.jpg">
+                        <img src="img/IMG_3779.JPG">
                      </div>
                      <div class="carousel-controls">
                         <label for="img-6" class="prev-slide">
@@ -304,7 +358,7 @@
                   <input type="radio" name="radio-buttons" id="img-8" />
                   <li class="slide-container">
                      <div class="slide-image">
-                        <img src="img/IMG_3787.jpg">
+                        <img src="img/IMG_3787.JPG">
                      </div>
                      <div class="carousel-controls">
                         <label for="img-7" class="prev-slide">
@@ -332,12 +386,13 @@
 
          </div>
       </div>
+      </div>
    </div>
 
    <div id="team-div">
       <h1 class="headers" id="about-us">About Us</h1>
       <p id="about-paragraph">Founded in 2019, Ignition Hacks is a student-led organization that focuses on bridging technology and business.
-         We are a team of coding-ninjas and business-savvy students that is dedicated to bringing an amazing online hackathon to you!</p>
+         We are a team of coding-ninjas and business-savvy students that is dedicated to bringing an amazing hybrid-hackathon to you!</p>
       <h1 class="headers"> Our Team</h1>
       <div class="team-members">
          <div class="team-category">
@@ -454,7 +509,7 @@
                   <img src="headshots/avery.jpeg">
                   <h3>Avery Ng</h3>
                   <h4>Marketing</h4>
-                  <a href="https://www.instagram.com/ncywjx/" target="_blank"
+                  <a href="https://www.instagram.com/p/CzUDRmsgzJ4/?img_index=2" target="_blank"
                      class="linkedin-btn"><img src="img/instagram.png" id="linkedin"></a>
                </div>
 
@@ -507,9 +562,9 @@
                <h1 id="footer-text-1">Ignition Hacks</h1>
             </div>
             <div class="social-buttons">
-               <a href="https://www.linkedin.com/company/ignition-hacks/" target="_blank"
+               <a href="https://www.instagram.com/rachelweiiiii?igsh=bzRicTE3N3ZleHE0&utm_source=qr" target="_blank"
                   class="linkedin-btn"><img src="img/instagram.png" id="linkedin"></a>
-               <a href="https://www.instagram.com/ignitionhacks/" target="_blank"
+               <a href="https://www.instagram.com/rachelweiiiii?igsh=bzRicTE3N3ZleHE0&utm_source=qr" target="_blank"
                   class="linkedin-btn"><img src="img/linkedin.png" id="linkedin"></a>
                <a href="mailto:info@ignitionhacks.com" target="_blank" class="linkedin-btn"><img src="img/mail.png"
                      id="mail"></a>
